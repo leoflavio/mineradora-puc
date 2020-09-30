@@ -23,7 +23,7 @@ public class ExecutorRegras {
 	@Autowired
 	private ISensorSismoRepository sensorSismoRepository;
 
-	@Scheduled(fixedRate = 3000L)
+	@Scheduled(fixedRate = 1000L)
 	void executorJob() throws InterruptedException {
 		executeAgora();
 	}
