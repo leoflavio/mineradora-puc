@@ -15,7 +15,7 @@
 	<description>Demo project for sistema mineracao</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 		<drools-version>7.43.0.Final</drools-version>
 	</properties>
 
