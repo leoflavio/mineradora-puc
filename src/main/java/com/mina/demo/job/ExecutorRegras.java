@@ -49,8 +49,6 @@ public class ExecutorRegras {
 			MotorDrools.executeDrools(r, rules.toString());
 //			System.out.println("Regra recupedada: " + rules.toString());
 
-//			https://stackoverflow.com/questions/2215843/using-reflection-in-java-to-create-a-new-instance-with-the-reference-variable-ty
-//			https://docs.oracle.com/javase/tutorial/reflect/member/ctorInstance.html
 			try {
 				String className = "com.mina.demo.nivelalerta.NivelAlerta"+r.getNivelAlerta();
 				Class c = Class.forName(className);
